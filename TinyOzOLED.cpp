@@ -13,6 +13,9 @@
   but WITHOUT ANY WARRANTY; without even the implied warranty of
   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
   Lesser General Public License for more details.
+  
+  Uses TinyWireM instead of Wire llibrary. For Attiny processors
+  Change done by Andreas Spiess, sensorsiot@gmail.com
 
 */
 
