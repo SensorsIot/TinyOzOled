@@ -479,7 +479,9 @@ void OzOLED::init(){
 	setCursorXY(0,0);
 	sendCommand(0x8d); //Charge Pump
         sendCommand(0x14);
-	
+
+    sendCommand(0xA0 | 0x1);//SEGREMAP 0xA0/0xA1
+    sendCommand(0xC8);//COMSCANDEC 0xC0/0xC8	
 
 }
 
